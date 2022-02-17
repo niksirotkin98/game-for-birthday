@@ -1,0 +1,295 @@
+{
+    "games":[
+        {
+            "type": "SwordTurn",
+            "data":{
+                "title": "Пращение - Логика",
+                "descr": "Обрати мечи в землю",
+                "intro": "Эти задания должны проверить твой ум, память, ловкость и удачу. В награду же Ты получишь ответ, важный тебе.",
+                "secret": 5,
+                "start" : 0,
+                "script":[
+                    [
+                        {
+                            "correct": 0,
+                            "direction": 2,
+                            "link": [5],
+                            "image": "sword1"
+                        },
+                        {
+                            "correct": 0,
+                            "direction": 3,
+                            "link": [],
+                            "image": "sword2"
+                        },
+                        {
+                            "correct": 0,
+                            "direction": 3,
+                            "link": [1],
+                            "image": "sword3"
+                        },
+                        {
+                            "correct": 0,
+                            "direction": 2,
+                            "link": [2],
+                            "image": "sword3"
+                        },
+                        {
+                            "correct": 0,
+                            "direction": 1,
+                            "link": [0, 1, 2, 3, 5],
+                            "image": "sword4"
+                        },
+                        {
+                            "correct": 0,
+                            "direction": 3,
+                            "link": [1],
+                            "image": "sword1"
+                        }
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "UnderwaterSign",
+            "data": {
+                "title": "Пращение - Память",
+                "descr": "Начерти знаки не утонув",
+                "secret" : 8,
+                "solveTime" : 20,
+                "memorizeTime" : 2,
+                "start": 0,
+                "script":[
+                    [
+                        {
+                            "key": 0,
+                            "image": "sign1"
+                        },
+                        {
+                            "key": 2,
+                            "image": "sign2"
+                        },
+                        {
+                            "key": 0,
+                            "image": "sign1"
+                        },
+                        {
+                            "key": 1,
+                            "image": "sign4"
+                        },
+                        {
+                            "key": 1,
+                            "image": "sign4"
+                        },
+                        {
+                            "key": 3,
+                            "image": "sign3"
+                        },
+                        {
+                            "key": 3,
+                            "image": "sign3"
+                        },
+                        {
+                            "key": 2,
+                            "image": "sign2"
+                        }
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Race",
+            "data":{
+                "title": "Пращение - Ловкость",
+                "descr": "Вспомни старое и обгони ИХ!",
+                "secret": 1,
+                "time": 18.5,
+                "hp": 4,
+                "start": 0,
+                "speedMultiplier": 0.0025,
+                "script":[
+                    [
+                        0, 0, 0, 0, 0, [4,6], 0, 1, 0, 3, 0, 0, 2, 0, 0, 1, 2, 0, 0, 3, 2, 0, 0, 1, 0, 0, 2, 0, 0, [1,3], 0, 0, 2, 0, 2, 0, 0, [1,3], 0, 0, 1, 2, 0, 0, 3, 2, 0, 0, 1, 0, [1,2], 0, 0, [2,3], 0, 0, [1,3], 0, 0, [1,2], 0, 0, [1,3], 0, 0, 2, 0, 0, [4,6], [4,6], [4,6], [4,6], [4,6], [4,6], [4,6], [4,6] 
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "RockPaperScissors",
+            "data":{
+                "title": "Пращение - Удача",
+                "descr": "Камень, ножницы, удача...",
+                "secret": 3
+            }
+        },
+        {
+            "type": "Outro",
+            "data":{
+                "title": "",
+                "descr": "Твои друзья)",
+                "intro": "Ну чтож смельчак, вот твой ответ:",
+                "secret": "",
+                "data" : []
+            }
+        }
+    ],
+    "download":{
+        "path":{
+            "image":"assets/image/",
+            "json":"assets/json/",
+            "font":"assets/font/",
+            "style":"assets/stylesheet/",
+            "script":"assets/script/"
+        },
+        "image":{
+            "paper":{
+            "src":"paper.png"
+            },
+            "big_paper":{
+            "src":"big_paper.png"
+            },
+            "sword1":{
+            "src":"sword1.png"
+            },
+            "sword2":{
+            "src":"sword2.png"
+            },
+            "sword3":{
+            "src":"sword3.png"
+            },
+            "sword4":{
+            "src":"sword4.png"
+            },
+            "back2":{
+            "src":"back1.png"
+            },
+            "button":{
+            "src":"button.png"
+            },
+            "button_pressed":{
+            "src":"button-pressed.png"
+            },
+            "sign1":{
+            "src":"sign1.png"
+            },
+            "sign2":{
+            "src":"sign2.png"
+            },
+            "sign3":{
+            "src":"sign3.png"
+            },
+            "sign4":{
+            "src":"sign4.png"
+            },
+            "replay":{
+            "src":"replay.png"
+            },
+            "wood_plank":{
+            "src":"wood_plank.png"
+            },
+            "button_go_left_pressed":{
+            "src":"button_go_left_pressed.png"
+            },
+            "button_go_left":{
+            "src":"button_go_left.png"
+            },
+            "button_go_right":{
+            "src":"button_go_right.png"
+            },
+            "button_go_right_pressed":{
+            "src":"button_go_right_pressed.png"
+            },
+            "rpc_paper":{
+            "src":"rpc_paper.png"
+            },
+            "rpc_rock":{
+            "src":"rpc_rock.png"
+            },
+            "rpc_scissor":{
+            "src":"rpc_scissor.png"
+            },
+            "car1":{
+            "src":"car1.png"
+            },
+            "car2":{
+            "src":"car2.png"
+            },
+            "car3":{
+            "src":"car3.png"
+            },
+            "comp":{
+            "src":"comp.png"
+            },
+            "comp1":{
+            "src":"comp1.png"
+            },
+            "comp2":{
+            "src":"comp2.png"
+            },
+            "comp3":{
+            "src":"comp3.png"
+            },
+            "comp4":{
+            "src":"comp4.png"
+            },
+            "display":{
+            "src":"display.png"
+            },
+            "heart":{
+            "src":"heart.png"
+            },
+            "mes_comp_res":{
+            "src":"mes_comp_res.png"
+            },
+            "mes_comp_say":{
+            "src":"mes_comp_say.png"
+            },
+            "mes_player_res":{
+            "src":"mes_player_res.png"
+            },
+            "mes_player1":{
+            "src":"mes_player1.png"
+            },
+            "mes_player2":{
+            "src":"mes_player2.png"
+            },
+            "mes_player3":{
+            "src":"mes_player3.png"
+            },
+            "timebar":{
+            "src":"timebar.png"
+            },
+            "ready":{
+            "src":"ready.png"
+            },
+            "wave":{
+            "src":"wave.png"
+            },
+            "play_button":{
+            "src":"play_button.png"
+            }
+        },
+        "json":{
+
+        },
+        "font":{
+            "balsamiq_regular":{
+            "family":"Balsamiq Sans",
+            "weight":"400",
+            "src":"BalsamiqSans-Regular.ttf"
+            },
+            "balsamiq_bold":{
+            "family":"Balsamiq Sans",
+            "weight":"700",
+            "src":"BalsamiqSans-Bold.ttf"
+            }
+        },
+        "style":{
+            "stylesheet":{
+            "src":"stylesheet.css"
+            }
+        },
+        "script":{
+        }
+    }
+}
